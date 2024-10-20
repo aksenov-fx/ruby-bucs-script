@@ -1,0 +1,31 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+	"name": "Jupyter with Ruby Kernel",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"postCreateCommand": "chmod +x .devcontainer/install_dependencies.sh && .devcontainer/install_dependencies.sh",
+	"customizations": {
+		"codespaces": {
+		  "openFiles": []
+		},
+		"vscode": {
+		  "extensions": [
+			"ms-toolsai.jupyter",
+			"Shopify.ruby-lsp"
+		  ]
+		}
+	}
+	
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}

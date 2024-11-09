@@ -1,17 +1,15 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/debian
 {
-	"name": "Ubuntu for Ruby Notebooks",
+	"name": "Ubuntu for Ruby",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	"postCreateCommand": "chmod +x .devcontainer/install_dependencies.sh && .devcontainer/install_dependencies.sh",
 	"customizations": {
 		"codespaces": {
 		  "openFiles": []
 		},
 		"vscode": {
 		  "extensions": [
-			"ms-toolsai.jupyter",
 			"Shopify.ruby-lsp"
 		  ]
 		}

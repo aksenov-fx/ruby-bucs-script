@@ -4,3 +4,7 @@ gem 'json'
 gem 'date'
 gem 'clipboard'
 gem 'optparse'
+
+gem 'rubocop'
+gem 'solargraph'
+gem 'debug'

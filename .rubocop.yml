@@ -1,0 +1,8 @@
+AllCops:
+  NewCops: enable
+
+Layout:
+    Enabled: false
+
+Style:
+    Enabled: false
